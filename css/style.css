@@ -1,0 +1,101 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.img-wrap {
+	position: relative;
+}
+
+.img-wrap h1 {	
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: #ffffff;
+	margin-bottom: 10px;
+	margin-left: 790px;
+	font-size: 85px;
+	line-height: 130px;
+}
+
+#main-block__text1 {
+	margin-left: 110px;
+}
+
+#main-block__text2 {
+	margin-left: 140px;
+}
+
+#brand-title {
+	font-weight: 700;
+	margin-right: 80px;
+}
+
+.second-block__title {
+	font-weight: bold;
+}
+
+div .card {
+	width: 15rem;
+	height: 20rem;
+	font-size: 13px;
+}
+
+div .card-title {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+div .btn-danger {
+	border-radius: 20px;
+}
+
+.third-block__title {
+	color: #ffffff;
+	text-align: center;
+}
+
+.third-block__text {
+	font-size: 16px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.fourth-block__title {
+	font-weight: bold;
+}
+
+.fourth-block__images {
+	border-radius: 100px;
+	margin-bottom: 15px;
+}
+
+.fourth-block__text {
+	text-align: center;
+	font-size: 17px;
+	color: #000000;
+}
+
+@media screen and (max-width: 1500px) {
+	div.img-wrap h1 {
+		font-size: 80px;
+	}
+}
+
+@media screen and (max-width: 1468px) {
+	div.img-wrap h1 {
+		font-size: 60px;
+	}
+}
+
+@media screen and (max-width: 1340px) {
+	div.img-wrap h1 {
+		display: none;
+	}
+}
+
+
+
